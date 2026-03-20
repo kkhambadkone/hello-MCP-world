@@ -1,8 +1,6 @@
 # Model Context Protocol (MCP)
 
-![Unlocking AI with Model Context Protocol (MCP)](images/mcp.png)
-
-<img src="images/mcp.png" width="300" height="300">
+<img src="images/mcp.png" width="400" height="400">
 
 ## Overview
 
