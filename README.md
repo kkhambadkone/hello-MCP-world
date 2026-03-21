@@ -21,6 +21,8 @@ An AI assistant can use MCP to create a Jira ticket, query a database, or search
 
 ## Prerequisites
 
+The environment for this is Ubuntu 24.04.4  
+
 ### Install required python packages
 
 ```
