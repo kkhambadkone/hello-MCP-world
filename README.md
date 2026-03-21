@@ -42,7 +42,7 @@ MCP_URL is hardcoded to  "http://127.0.0.1:8000/mcp" in mcpclient.py, this can b
 ```
 
 ### Start mcp server in background
-
+it runs on port 8000 which can be changed in the script
 ```
 nohup python  jiramcpserverhttp.py > server.out 2>&1 &
 ```
