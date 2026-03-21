@@ -1,6 +1,8 @@
 # Model Context Protocol (MCP)
 
-<img class="container" src="images/mcp.png" width="500" height="500">
+<div align="center">
+  <img src="images/mcp.png" alt="description" />
+</div>
 
 ## Overview
 
