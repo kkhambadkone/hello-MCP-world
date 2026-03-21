@@ -36,6 +36,7 @@ export JIRA_BASE_URL=<your JIRA_BASE_URL here>
 export JIRA_EMAIL=<JIRA_EMAIL here>
 export JIRA_API_TOKEN=<your JIRA_API_TOKEN here>
 
+MCP_URL is hardcoded to  "http://127.0.0.1:8000/mcp" in mcpclient.py, this can be parameterized
 ```
 
 ### Start mcp server in background
