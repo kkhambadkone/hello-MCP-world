@@ -46,7 +46,7 @@ nohup python  jiramcpserverhttp.py > server.out 2>&1 &
 
 check if it is running
 
-# lsof -i :8000
+$ lsof -i :8000
 COMMAND  PID USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
 python  7028 root    6u  IPv4 1138597      0t0  TCP localhost:8000 (LISTEN)
 
