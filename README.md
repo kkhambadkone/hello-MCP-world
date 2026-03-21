@@ -1,7 +1,7 @@
 # Model Context Protocol (MCP)
 
 <div align="center">
-  <img src="images/mcp.png" alt="description" />
+  <img src="images/mcp.png" alt="description"/>
 </div>
 
 ## Overview
