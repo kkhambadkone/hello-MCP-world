@@ -19,3 +19,12 @@ Model Context Protocol (MCP) is a standardized way for AI models to interact wit
 
 An AI assistant can use MCP to create a Jira ticket, query a database, or search internal documents through a common interface.
 
+## Prerequisites
+
+```
+pip install "fastmcp>=3.0.0rc1"
+pip install httpx
+```
+
+
+
