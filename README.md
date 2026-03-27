@@ -8,6 +8,34 @@
 
 Model Context Protocol (MCP) is a standardized way for AI models to interact with tools, APIs, and enterprise systems.
 
+## Architecture
+
+```
+                 ┌──────────────────────────┐
+                 │    MCP Client (LLM)      │
+                 │(e.g., agent or LLM host) │
+                 └────────────┬─────────────┘
+                              │
+                (JSON‑RPC / MCP Transport)
+                              │
+                              ▼
+                 ┌──────────────────────────┐
+                 │    MCP Server Host       │
+                 │(hello‑MCP‑world service) │
+                 └────────────┬─────────────┘
+                              │
+          ┌───────────────────┴───────────────────┐
+          ▼                                       ▼
+ ┌─────────────────┐                    ┌──────────────────┐
+ │ Resources       │                    │ Tools            │
+ │ (data endpoints)│                    │ (functions)      │
+ │ e.g., hello://… │                    │ e.g., echo, debug│
+ └─────────────────┘                    └──────────────────┘
+                              │
+                              ▼
+                    Responses / Structured Data
+```
+
 ## Why MCP matters
 
 - Unified access to external tools
