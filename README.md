@@ -70,7 +70,7 @@ MCP_URL is hardcoded to  "http://127.0.0.1:8000/mcp" in mcpclient.py, this can b
 ```
 
 ### Start mcp server in background
-
+it runs on port 8000 which can be changed in the script
 ```
 nohup python  jiramcpserverhttp.py > server.out 2>&1 &
 ```
@@ -89,7 +89,7 @@ python  7028 root    6u  IPv4 1138597      0t0  TCP localhost:8000 (LISTEN)
 python mcpclient.py   --project SCRUM   --summary "Ticket via CLI"   --description "Created using MCP HTTP client"   --type Task  
 ```
 
-If successful, you should see this output
+#### If successful, you should see this output
 <Response [200 OK]>
 {
   "raw_text": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"success\\\":true,\\\"status_code\\\":201,\\\"data\\\":{\\\"id\\\":\\\"10442\\\",\\\"key\\\":\\\"SCRUM-79\\\",\\\"self\\\":\\\"https://krish-ai-test.atlassian.net/rest/api/3/issue/10442\\\"}}\"}],\"structuredContent\":{\"success\":true,\"status_code\":201,\"data\":{\"id\":\"10442\",\"key\":\"SCRUM-79\",\"self\":\"https://krish-ai-test.atlassian.net/rest/api/3/issue/10442\"}},\"isError\":false}}\r\n\r\n"
